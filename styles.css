@@ -1,6 +1,4 @@
-p{
-	background-color: green
-}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -77,7 +75,7 @@ ul{
 }
 #container div p{
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
@@ -114,8 +112,9 @@ ul{
     padding:5px;    
 }
 #image{
+	top: 30%;
 	border-radius: 50%;
-  	height: 200px;
+  	height: relative;
 	align-content: center;
 	display: block;
     margin-left: auto;
